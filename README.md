@@ -106,6 +106,7 @@ RGB Threshold to extract white parts of the lane
 <img src="output_images/threshold_color.jpg" width="480" />
 
 Combine this together additively
+
 <img src="output_images/threshold.jpg" width="480" />
 
 Apply a sobel edge detector to extract vertical lines
@@ -216,7 +217,7 @@ R curve = (1+(2Ay + B)^2)^1.5)/|2A|
 
 Finally we annotate the image with information we have gathered.
 
-<img src="output_images/final.jpg" width="480" />
+<img src="output_images/final.png" width="480" />
 
 ## Shortcomings and Difficulties
 With these improvements, there are still situations in which the detector will fail.
